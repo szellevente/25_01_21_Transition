@@ -9,31 +9,35 @@
     background-color: lightblue;
 }
 
-/* .box1:hover {
+ .box1:hover {
     background-color: lightcoral;
-} */
+} 
 
 .box2 {
     background-color: lightgreen;
+    transition: transform 1s ease;
 }
 
-/* .box2:hover {
+ .box2:hover {
     transform: rotate(45deg);
-} */
+} 
 
 .box3 {
     background-color: rgb(246, 246, 156);
+    transition: all 2s ease;
 }
 
-/* .box3:hover {
+.box3:hover {
     width: 200px;
     height: 200px;
     background-color: lightsalmon;
+    transition: transform 1s ease;
 } */
 
 .box4 {
     background-color: lightcyan;
-    /*transition: transform 2s ease;*/
+    transition: transform 2s ease;
+    
 }
 
 .box4:hover {
@@ -44,11 +48,12 @@
     background-color: lightpink;
 }
 
-/* .box5:hover {
+
+.box5:hover {
     width: 200px;
     height: 200px;
     background-color: lightseagreen;
-} */
+} 
 
 p {
     font-size: 20px;
