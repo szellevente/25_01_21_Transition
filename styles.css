@@ -1,0 +1,61 @@
+.box {
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.box1 {
+    background-color: lightblue;
+}
+
+/* .box1:hover {
+    background-color: lightcoral;
+} */
+
+.box2 {
+    background-color: lightgreen;
+}
+
+/* .box2:hover {
+    transform: rotate(45deg);
+} */
+
+.box3 {
+    background-color: rgb(246, 246, 156);
+}
+
+/* .box3:hover {
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+} */
+
+.box4 {
+    background-color: lightcyan;
+    transition: transform 2s ease;
+}
+
+.box4:hover {
+    transform: translateX(200px);
+}
+
+.box5 {
+    background-color: lightpink;
+}
+
+/* .box5:hover {
+    width: 200px;
+    height: 200px;
+    background-color: lightseagreen;
+} */
+
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    margin: 20px;
+}
