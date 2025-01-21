@@ -33,7 +33,7 @@
 
 .box4 {
     background-color: lightcyan;
-    transition: transform 2s ease;
+    /*transition: transform 2s ease;*/
 }
 
 .box4:hover {
